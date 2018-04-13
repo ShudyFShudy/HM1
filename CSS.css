@@ -89,4 +89,19 @@ h1 {
     line-height: 44px;
     text-align: center;
     margin-bottom: 18px;
+    width: 75%;
+}
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 60px;
+    width: 75%;
+}
+.layer {
+    position: fixed; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    right: 15px; /* Положение от правого края */
+    line-height: 1px;
+
 }
