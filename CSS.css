@@ -76,12 +76,44 @@
     .menu-main:after {content: none;}
     .menu-main a {display: block;}
 }
-p {
-    font-size: 20px;
-    line-height: 28px;
-    margin: 0 0 18px;
-    text-align: left;
+font-size: 20px;
+line-height: 28px;
+margin: 0 0 18px;
+text-align: left;
+
+#showcase{
+    height:250px;
+    margin:10px;
+    text-align:center;
+    background:url(img/highlight.jpg) left no-repeat;
 }
+
+#showcase p{
+    text-align:right;
+    font:1.9em 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0 10px 0 300px;
+}
+
+#text p{
+    padding: 5px 30px 5px 20px;
+    line-height:1.5em;
+}
+
+#text{
+    padding-top:10px;
+    width:780px;
+    background:url(img/back.jpg) repeat-y;
+    margin:0 auto;
+}
+
+#footer{
+    background:url(img/bottom.jpg) center no-repeat;
+    height:50px;
+    margin-top:-16px !important;
+    margin-top:0px;
+}
+
 h1 {
     font-size: 40px;
     font-weight: normal;
@@ -91,7 +123,7 @@ h1 {
 
 }
 h2  {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
     margin-bottom: 45px;
